@@ -1,73 +1,100 @@
-# Welcome to your Lovable project
+# Portfólio de Jami – Cybersecurity & Data Analysis
 
-## Project info
+**Acesse online:** [jami-cyber-data-hub.lovable.app](https://jami-cyber-data-hub.lovable.app/)
 
-**URL**: https://lovable.dev/projects/9b31d3f8-daf1-4a46-8f86-ebde0c2d2c3d
+Este repositório contém o **portfolio digital de Jami**, destacando suas habilidades e experiências em **análise de dados**, **cibersegurança**, **desenvolvimento Back-End** e automação industrial, além de apresentar sua trajetória acadêmica e projetos relevantes.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🚀 Tecnologias Utilizadas
 
-**Use Lovable**
+**Front-End e Design:**
+- HTML5
+- CSS3 (animações leves e interatividade)
+- JavaScript
+- React + TypeScript
+- Tailwind CSS
+- shadcn-ui
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/9b31d3f8-daf1-4a46-8f86-ebde0c2d2c3d) and start prompting.
+**Ferramentas de Desenvolvimento:**
+- Vite (build tool rápida)
+- Git & GitHub (controle de versão e hospedagem)
+- Design responsivo: compatível com desktop, tablet e mobile
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 🗂️ Estrutura do Site
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+1. **Home / Apresentação**
+   - Mensagem introdutória
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+2. **Sobre Mim**
+   - Foramada em ADS e pós graduação em GSI em andamento 
+   - Experiência profissional: Back-End (Java, C#, Python), análise de dados, automação industrial, PLCs/SCADA, cibersegurança
+   - Publicações de artigos em revistas acadêmicas
 
-Follow these steps:
+3. **Habilidades Técnicas e Analíticas**
+   - Programação: Java, C, C#, Python, TypeScript
+   - Desenvolvimento Back-End e integração de sistemas
+   - Análise e visualização de dados
+   - Automação industrial / PLCs / SCADA
+   - Segurança da informação e LGPD
+   - Metodologias ágeis (Scrum, Kanban)
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+4. **Projetos**
+   - Monografias e projetos acadêmicos
+   - Laboratórios TryHackMe e PortSwigger
+   - Projetos de análise de dados aplicados a problemas reais
+
+5. **Currículo / Experiência**
+   - Linha do tempo com educação, experiência e publicações
+   - Opção de download do currículo em PDF
+
+6. **Interesses**
+   - Aprendizado de idiomas
+   - Inovação em tecnologia
+   - Desenvolvimento pessoal
+
+7. **Contato**
+   - Formulário de contato
+   - Links para LinkedIn e GitHub
+
+---
+
+## ⚡ Como Usar Este Projeto
+
+### 🔹 Localmente
+```bash
+# Clone o repositório
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
+# Entre no diretório do projeto
 cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
+# Instale as dependências
 npm i
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Inicie o servidor de desenvolvimento
 npm run dev
-```
 
-**Edit a file directly in GitHub**
+🔹 Editando Diretamente no GitHub
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+    Navegue até o arquivo desejado
 
-**Use GitHub Codespaces**
+    Clique no botão ✏️ “Edit”
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+    Faça suas alterações e commit
 
-## What technologies are used for this project?
+🔹 Usando GitHub Codespaces
 
-This project is built with:
+    Clique em Code > Codespaces > New Codespace
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+    Edite arquivos diretamente no Codespace
 
-## How can I deploy this project?
+    Commit e push quando terminar
 
-Simply open [Lovable](https://lovable.dev/projects/9b31d3f8-daf1-4a46-8f86-ebde0c2d2c3d) and click on Share -> Publish.
+📂 Contatos
 
-## Can I connect a custom domain to my Lovable project?
+LinkedIn: linkedin.com/in/jamielly-reis
+GitHub: github.com/Jamielly
 
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
