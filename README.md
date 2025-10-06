@@ -76,7 +76,7 @@ npm i
 
 # Inicie o servidor de desenvolvimento
 npm run dev
-
+```
 🔹 Editando Diretamente no GitHub
 
     Navegue até o arquivo desejado
@@ -92,7 +92,7 @@ npm run dev
     Edite arquivos diretamente no Codespace
 
     Commit e push quando terminar
-```
+
 📂 Contatos
 
 LinkedIn: linkedin.com/in/jamiellyreis
