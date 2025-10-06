@@ -10,7 +10,7 @@ Este repositório contém o **portfolio digital de Jami**, destacando suas habil
 
 ---
 
-## 🚀 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 **Front-End e Design:**
 - HTML5
@@ -27,7 +27,7 @@ Este repositório contém o **portfolio digital de Jami**, destacando suas habil
 
 ---
 
-## 🗂️ Estrutura do Site
+## Estrutura do Site
 
 1. **Home / Apresentação**
    - Mensagem introdutória
@@ -67,7 +67,7 @@ Este repositório contém o **portfolio digital de Jami**, destacando suas habil
 
 ---
 
-## ⚡ Como Usar Este Projeto
+## Como Usar Este Projeto
 
 ### 🔹 Localmente
 ```bash
@@ -99,7 +99,7 @@ npm run dev
 
     Commit e push quando terminar
 
-## 📂 Contatos
+##  Contatos
 
 **LinkedIn:** [linkedin.com/in/jamiellyreis](https://www.linkedin.com/in/jamiellyreis/)
 
