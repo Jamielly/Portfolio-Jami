@@ -1,6 +1,6 @@
 # Portfólio de Jami – Cybersecurity & Data Analysis
 
-**Acesse online:** [jami-cyber-data-hub.lovable.app](https://jami-cyber-data-hub.lovable.app/)
+**Acesse online:** [Portfolio.lovable.app](https://jamiportfolio.lovable.app/)
 
 Este repositório contém o **portfolio digital de Jami**, destacando suas habilidades e experiências em **análise de dados**, **cibersegurança**, **desenvolvimento Back-End** e automação industrial, além de apresentar sua trajetória acadêmica, projetos relevantes e publicações.
 
