@@ -2,7 +2,11 @@
 
 **Acesse online:** [jami-cyber-data-hub.lovable.app](https://jami-cyber-data-hub.lovable.app/)
 
-Este repositório contém o **portfolio digital de Jami**, destacando suas habilidades e experiências em **análise de dados**, **cibersegurança**, **desenvolvimento Back-End** e automação industrial, além de apresentar sua trajetória acadêmica e projetos relevantes.
+Este repositório contém o **portfolio digital de Jami**, destacando suas habilidades e experiências em **análise de dados**, **cibersegurança**, **desenvolvimento Back-End** e automação industrial, além de apresentar sua trajetória acadêmica, projetos relevantes e publicações.
+
+**Contatos:**
+- **LinkedIn:** [linkedin.com/in/jamiellyreis](https://www.linkedin.com/in/jamiellyreis/)
+- **GitHub:** [github.com/Jamielly](https://github.com/Jamielly)
 
 ---
 
@@ -29,7 +33,7 @@ Este repositório contém o **portfolio digital de Jami**, destacando suas habil
    - Mensagem introdutória
 
 2. **Sobre Mim**
-   - Foramada em ADS e pós graduação em GSI em andamento 
+   - Formada em Análise e Desenvolvimento de Sistemas (ADS) e pós-graduação em Gestão de Sistemas da Informação (GSI) pelo IFSP Guarulhos
    - Experiência profissional: Back-End (Java, C#, Python), análise de dados, automação industrial, PLCs/SCADA, cibersegurança
    - Publicações de artigos em revistas acadêmicas
 
@@ -42,9 +46,11 @@ Este repositório contém o **portfolio digital de Jami**, destacando suas habil
    - Metodologias ágeis (Scrum, Kanban)
 
 4. **Projetos**
-   - Monografias e projetos acadêmicos
-   - Laboratórios TryHackMe e PortSwigger
-   - Projetos de análise de dados aplicados a problemas reais
+   - **Estudos em Inteligência Artificial e Atualidades:** [Análise de Cibersegurança](https://github.com/Jamielly/Analise_CyberSegurity)
+   - **Laboratórios TryHackMe:** [Práticas de Pentesting](https://github.com/Jamielly)
+   - **Laboratórios PortSwigger:** [Web Security Academy](https://github.com/Jamielly)
+   - **Defasagem Escolar:** [Artigo publicado](https://rgti.fatecguarulhos.edu.br/ojs33/index.php/rgti/article/view/62)
+   - **Inovação em Captação de Recursos:** [Artigo publicado](https://revista.gru.ifsp.edu.br/exatecca/article/view/265)
 
 5. **Currículo / Experiência**
    - Linha do tempo com educação, experiência e publicações
@@ -93,9 +99,19 @@ npm run dev
 
     Commit e push quando terminar
 
-📂 Contatos
+## 📂 Contatos
 
-LinkedIn: linkedin.com/in/jamiellyreis
+**LinkedIn:** [linkedin.com/in/jamiellyreis](https://www.linkedin.com/in/jamiellyreis/)
 
-GitHub: github.com/Jamielly
+**GitHub:** [github.com/Jamielly](https://github.com/Jamielly)
+
+## 📚 Artigos Publicados
+
+1. **Defasagem Escolar no Andamento da Vida Acadêmica - Impacto da Defasagem Escolar na Motivação e Desempenho dos Alunos**
+   - Publicado na Revista Gestão & Tecnologia de Informação - Fatec Guarulhos
+   - [Ler artigo completo](https://rgti.fatecguarulhos.edu.br/ojs33/index.php/rgti/article/view/62)
+
+2. **Uma Inovação na Captação de Recurso para Entidade sem Fim Lucrativo**
+   - Publicado na Revista EXATECCA IV - IFSP Guarulhos
+   - [Ler artigo completo](https://revista.gru.ifsp.edu.br/exatecca/article/view/265)
 

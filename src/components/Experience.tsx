@@ -5,10 +5,10 @@ const Experience = () => {
   const experiences = [
     {
       icon: <GraduationCap className="w-6 h-6" />,
-      title: "Pós-Graduação em Inteligência Artificial",
+      title: "Pós-Graduação em Gestão de Sistemas da Informação (GSI)",
       organization: "IFSP Guarulhos",
       period: "Em andamento",
-      description: "Especialização em IA com foco em aplicações práticas, machine learning, deep learning e ética em inteligência artificial.",
+      description: "Especialização em gestão estratégica de TI, governança de dados, segurança da informação e transformação digital.",
       type: "education"
     },
     {

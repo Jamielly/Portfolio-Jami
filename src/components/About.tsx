@@ -5,8 +5,8 @@ const About = () => {
   const highlights = [
     {
       icon: <Brain className="w-8 h-8 text-primary" />,
-      title: "Inteligência Artificial",
-      description: "Pós-graduação no IFSP Guarulhos"
+      title: "Gestão de Sistemas da Informação",
+      description: "Pós-graduação (GSI) no IFSP Guarulhos"
     },
     {
       icon: <Code className="w-8 h-8 text-primary" />,
@@ -38,7 +38,8 @@ const About = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
           <div className="animate-fade-in-up">
             <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-              Profissional apaixonada por tecnologia com formação em <span className="text-primary font-semibold">Inteligência Artificial</span> pelo IFSP Guarulhos, 
+              Formada em <span className="text-primary font-semibold">Análise e Desenvolvimento de Sistemas</span> com pós-graduação 
+              em <span className="text-primary font-semibold">Gestão de Sistemas da Informação (GSI)</span> pelo IFSP Guarulhos, 
               especializada em análise de dados e cibersegurança.
             </p>
             <p className="text-lg text-muted-foreground mb-6 leading-relaxed">

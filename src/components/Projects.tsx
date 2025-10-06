@@ -6,46 +6,46 @@ import { Button } from "./ui/button";
 const Projects = () => {
   const projects = [
     {
-      title: "TCC em Inteligência Artificial",
-      description: "Análise do impacto da implementação de IA na tomada de decisão em instituições públicas. Estudo aprofundado sobre governança de dados, ética em IA e transformação digital.",
-      technologies: ["Python", "Machine Learning", "Data Analysis", "Research"],
-      results: "Publicação acadêmica com insights práticos sobre adoção de IA no setor público",
-      link: "#"
+      title: "Estudos em Inteligência Artificial e Atualidades",
+      description: "Análise avançada em cibersegurança aplicada à inteligência artificial. Estudo sobre vulnerabilidades em sistemas de IA, governança de dados e ética em segurança digital.",
+      technologies: ["Python", "Cybersecurity", "AI Security", "Research"],
+      results: "Pesquisa acadêmica sobre segurança em sistemas de inteligência artificial",
+      link: "https://github.com/Jamielly/Analise_CyberSegurity"
     },
     {
       title: "Laboratórios TryHackMe",
-      description: "Exploração prática de vulnerabilidades de segurança através de cenários realistas. Análise de sistemas, detecção de falhas e elaboração de relatórios técnicos detalhados.",
+      description: "Exploração prática de vulnerabilidades de segurança através de cenários realistas. Análise de sistemas, detecção de falhas e elaboração de relatórios técnicos detalhados com foco em pentesting e OSINT.",
       technologies: ["Penetration Testing", "Linux", "Network Security", "OSINT"],
-      results: "Múltiplos labs completados com relatórios de vulnerabilidades e recomendações",
-      link: "#"
+      results: "Múltiplos labs completados com relatórios de vulnerabilidades e recomendações de segurança",
+      link: "https://github.com/Jamielly"
     },
     {
-      title: "Análise de Dados Educacionais",
-      description: "Projeto de análise sobre defasagem escolar utilizando grandes volumes de dados. Visualizações interativas e insights para políticas educacionais.",
+      title: "Defasagem Escolar no Andamento da Vida Acadêmica",
+      description: "Análise sobre impacto da defasagem escolar na motivação e desempenho dos alunos utilizando grandes volumes de dados educacionais. Visualizações interativas e insights para políticas públicas educacionais.",
       technologies: ["Python", "Pandas", "Matplotlib", "Statistics"],
-      results: "Artigo publicado: 'Defasagem Escolar...'",
-      link: "#"
+      results: "Artigo publicado na RGTI Fatec Guarulhos",
+      link: "https://rgti.fatecguarulhos.edu.br/ojs33/index.php/rgti/article/view/62"
     },
     {
-      title: "PortSwigger Web Security Academy",
-      description: "Estudos avançados em segurança de aplicações web. Exploração de vulnerabilidades OWASP Top 10, incluindo SQL Injection, XSS, CSRF e muito mais.",
+      title: "Laboratórios PortSwigger Web Security Academy",
+      description: "Estudos avançados em segurança de aplicações web. Exploração prática de vulnerabilidades OWASP Top 10, incluindo SQL Injection, XSS, CSRF, autenticação quebrada e controle de acesso.",
       technologies: ["Web Security", "Burp Suite", "SQL Injection", "XSS"],
-      results: "Certificações em múltiplos módulos de segurança web",
-      link: "#"
+      results: "Certificações em múltiplos módulos de segurança web e práticas de hacking ético",
+      link: "https://github.com/Jamielly"
     },
     {
       title: "Sistema de Automação Industrial",
-      description: "Desenvolvimento de sistemas de controle e monitoramento para automação industrial utilizando PLCs e SCADA. Integração com sistemas de gestão.",
+      description: "Desenvolvimento de sistemas de controle e monitoramento para automação industrial utilizando PLCs e SCADA. Integração com sistemas de gestão empresarial e otimização de processos produtivos.",
       technologies: ["PLCs", "SCADA", "C#", "Industrial Protocols"],
       results: "Sistema implementado com aumento de 30% em eficiência operacional",
-      link: "#"
+      link: "https://github.com/Jamielly"
     },
     {
       title: "Inovação em Captação de Recursos",
-      description: "Projeto inovador para otimização de processos de captação de recursos em instituições. Análise de dados e automação de workflows.",
+      description: "Projeto inovador para otimização de processos de captação de recursos em instituições sem fins lucrativos. Análise de dados, automação de workflows e inteligência de negócios aplicada ao terceiro setor.",
       technologies: ["Data Analysis", "Process Automation", "Business Intelligence"],
-      results: "Artigo publicado: 'Uma Inovação na Captação de Recursos...'",
-      link: "#"
+      results: "Artigo publicado na Revista EXATECCA IV - IFSP Guarulhos",
+      link: "https://revista.gru.ifsp.edu.br/exatecca/article/view/265"
     }
   ];
 
@@ -93,9 +93,12 @@ const Projects = () => {
                   size="sm"
                   variant="outline"
                   className="flex-1 border-primary/50 hover:bg-primary/10"
+                  asChild
                 >
-                  <ExternalLink className="w-4 h-4 mr-2" />
-                  Ver Mais
+                  <a href={project.link} target="_blank" rel="noopener noreferrer">
+                    <ExternalLink className="w-4 h-4 mr-2" />
+                    Ver Projeto
+                  </a>
                 </Button>
               </div>
             </Card>

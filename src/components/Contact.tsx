@@ -109,8 +109,13 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-bold mb-2">LinkedIn</h4>
-                  <a href="#" className="text-primary hover:underline">
-                    linkedin.com/in/jami
+                  <a 
+                    href="https://www.linkedin.com/in/jamiellyreis/" 
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary hover:underline"
+                  >
+                    linkedin.com/in/jamiellyreis
                   </a>
                 </div>
               </div>
@@ -123,8 +128,13 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-bold mb-2">GitHub</h4>
-                  <a href="#" className="text-primary hover:underline">
-                    github.com/jami
+                  <a 
+                    href="https://github.com/Jamielly" 
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary hover:underline"
+                  >
+                    github.com/Jamielly
                   </a>
                 </div>
               </div>
