@@ -92,9 +92,10 @@ npm run dev
     Edite arquivos diretamente no Codespace
 
     Commit e push quando terminar
-
+```
 📂 Contatos
 
-LinkedIn: linkedin.com/in/jamielly-reis
+LinkedIn: linkedin.com/in/jamiellyreis
+
 GitHub: github.com/Jamielly
 
