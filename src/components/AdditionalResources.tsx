@@ -30,13 +30,13 @@ const AdditionalResources = () => {
                 asChild
                 className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-semibold hover-glow"
               >
-                <a href="/docs/Curriculo_Jamielly_Reis.pdf" download>
+                <a href="/docs/Jamielly Reis_Curriculo.pdf" download>
                   <Download className="w-4 h-4 mr-2" />
                   Download CV
                 </a>
               </Button>
               <a
-                href="/docs/Curriculo_Jamielly_Reis.pdf"
+                href="/docs/Jamielly Reis_Curriculo.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-2 text-sm text-primary hover:underline"
