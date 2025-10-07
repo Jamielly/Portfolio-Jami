@@ -50,10 +50,6 @@ Este repositório contém o **portfolio digital de Jami**, destacando suas habil
 
 4. **Projetos**
    - **Estudos em Inteligência Artificial e Atualidades:** [Análise de Cibersegurança](https://github.com/Jamielly/Analise_CyberSegurity) - Pesquisa e análise de ameaças cibernéticas utilizando técnicas de IA e machine learning
-   - **Laboratórios TryHackMe:** [Práticas de Pentesting](https://github.com/Jamiell) - Exercícios práticos de pentesting, análise de vulnerabilidades e técnicas de exploração
-   - **Laboratórios PortSwigger:** [Web Security Academy](https://github.com/Jamielly) - Estudos avançados em segurança web, incluindo SQLi, XSS, CSRF e outras vulnerabilidades
-   - **Defasagem Escolar:** [Artigo publicado](https://rgti.fatecguarulhos.edu.br/ojs33/index.php/rgti/article/view/62) - Pesquisa sobre defasagem escolar com análise de dados educacionais
-   - **Inovação em Captação de Recursos:** [Artigo publicado](https://revista.gru.ifsp.edu.br/exatecca/article/view/265) - Estudo sobre otimização de processos de captação de recursos
 
 5. **Currículo / Experiência**
    - Linha do tempo com educação, experiência e publicações
@@ -69,9 +65,8 @@ Este repositório contém o **portfolio digital de Jami**, destacando suas habil
    - Formulário de contato removido
 
 8. **Outros Interesses e Materiais**
-   - **Currículo:** Baixe ou visualize online o CV em PDF ([Curriculo_Jamielly_Reis.pdf](/public/docs/Curriculo_Jamielly_Reis.pdf))
-   - **Canal no YouTube:** Compartilho reflexões e estudos sobre tecnologia e cibersegurança ([Acessar Canal](https://www.youtube.com/channel/UCYaWrmozMN48G_Z76H45RWg))
-   - **Perfil na DIO:** Artigos, resumos de estudos e projetos sobre tecnologia, IA e segurança ([Visitar Perfil](https://www.dio.me/users/jamielly_reis))
+   - **Canal no YouTube:** Compartilho reflexões e estudos sobre tecnologia ([Acessar Canal](https://www.youtube.com/channel/UCYaWrmozMN48G_Z76H45RWg))
+   - **Perfil na DIO:** Artigos, resumos de estudos e projetos sobre tecnologia, IA e atualidades ([Visitar Perfil](https://www.dio.me/users/jamielly_reis))
 
 ---
 
@@ -112,6 +107,4 @@ npm run dev
 **LinkedIn:** [linkedin.com/in/jamielly-reis](https://www.linkedin.com/in/jamielly-reis/)
 
 **GitHub:** [github.com/Jamielly](https://github.com/Jamielly)
-
-**Download do Currículo:** [Curriculo_Jamielly_Reis.pdf](/public/docs/Curriculo_Jamielly_Reis.pdf)
 
