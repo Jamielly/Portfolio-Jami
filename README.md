@@ -65,6 +65,11 @@ Este repositório contém o **portfolio digital de Jami**, destacando suas habil
    - Formulário de contato
    - Links para LinkedIn e GitHub
 
+8. **Outros Interesses e Materiais**
+   - **Currículo:** Baixe ou visualize online o CV em PDF ([/public/docs/Curriculo_Jamielly_Reis.pdf](/public/docs/Curriculo_Jamielly_Reis.pdf))
+   - **Canal no YouTube:** Compartilho reflexões e estudos sobre tecnologia e cibersegurança ([Acessar Canal](https://www.youtube.com/channel/UCYaWrmozMN48G_Z76H45RWg))
+   - **Perfil na DIO:** Artigos, resumos de estudos e projetos sobre tecnologia, IA e segurança ([Visitar Perfil](https://www.dio.me/users/jamielly_reis))
+
 ---
 
 ## Como Usar Este Projeto

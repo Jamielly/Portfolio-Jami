@@ -6,6 +6,7 @@ import Projects from "@/components/Projects";
 import Experience from "@/components/Experience";
 import Interests from "@/components/Interests";
 import Contact from "@/components/Contact";
+import AdditionalResources from "@/components/AdditionalResources";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -19,6 +20,7 @@ const Index = () => {
       <Experience />
       <Interests />
       <Contact />
+      <AdditionalResources />
       <Footer />
     </div>
   );
