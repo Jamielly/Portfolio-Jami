@@ -1,7 +1,35 @@
+import { useState } from "react";
 import { Card } from "./ui/card";
-import { Linkedin, Github } from "lucide-react";
+import { Input } from "./ui/input";
+import { Textarea } from "./ui/textarea";
+import { Button } from "./ui/button";
+import { Linkedin, Github, Mail, Send } from "lucide-react";
+import { useToast } from "@/hooks/use-toast";
 
 const Contact = () => {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    message: ""
+  });
+  const { toast } = useToast();
+
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    toast({
+      title: "Mensagem enviada!",
+      description: "Obrigada pelo contato. Retornarei em breve!",
+    });
+    setFormData({ name: "", email: "", message: "" });
+  };
+
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value
+    });
+  };
+
   return (
     <section id="contact" className="section-spacing bg-secondary/30">
       <div className="container mx-auto max-w-4xl">
@@ -15,44 +43,99 @@ const Contact = () => {
           </p>
         </div>
 
-        <div className="flex flex-col md:flex-row gap-8 justify-center max-w-2xl mx-auto">
-          <Card className="card-gradient p-8 border-border hover-glow flex-1 animate-fade-in-up">
-            <div className="flex flex-col items-center text-center gap-4">
-              <div className="w-16 h-16 bg-primary/20 rounded-full flex items-center justify-center text-primary">
-                <Linkedin className="w-8 h-8" />
+        <div className="grid md:grid-cols-2 gap-8">
+          <Card className="card-gradient p-8 border-border animate-slide-in-right">
+            <h3 className="text-2xl font-bold mb-6">Envie uma mensagem</h3>
+            <form onSubmit={handleSubmit} className="space-y-4">
+              <div>
+                <Input
+                  name="name"
+                  placeholder="Seu nome"
+                  value={formData.name}
+                  onChange={handleChange}
+                  required
+                  className="bg-background/50 border-border"
+                />
               </div>
               <div>
-                <h4 className="font-bold mb-2 text-xl">LinkedIn</h4>
-                <a 
-                  href="https://www.linkedin.com/in/jamielly-reis/" 
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-primary hover:underline text-sm"
-                >
-                  linkedin.com/in/jamielly-reis
-                </a>
+                <Input
+                  name="email"
+                  type="email"
+                  placeholder="Seu e-mail"
+                  value={formData.email}
+                  onChange={handleChange}
+                  required
+                  className="bg-background/50 border-border"
+                />
               </div>
-            </div>
+              <div>
+                <Textarea
+                  name="message"
+                  placeholder="Sua mensagem"
+                  value={formData.message}
+                  onChange={handleChange}
+                  required
+                  rows={5}
+                  className="bg-background/50 border-border resize-none"
+                />
+              </div>
+              <Button
+                type="submit"
+                className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-semibold hover-glow"
+              >
+                <Send className="w-4 h-4 mr-2" />
+                Enviar Mensagem
+              </Button>
+            </form>
           </Card>
 
-          <Card className="card-gradient p-8 border-border hover-glow flex-1 animate-fade-in-up" style={{ animationDelay: "0.1s" }}>
-            <div className="flex flex-col items-center text-center gap-4">
-              <div className="w-16 h-16 bg-primary/20 rounded-full flex items-center justify-center text-primary">
-                <Github className="w-8 h-8" />
+          <div className="space-y-6 animate-fade-in-up">
+            <Card className="card-gradient p-8 border-border hover-glow">
+              <div className="flex items-start gap-4">
+                <div className="w-12 h-12 bg-primary/20 rounded-full flex items-center justify-center text-primary flex-shrink-0">
+                  <Mail className="w-6 h-6" />
+                </div>
               </div>
-              <div>
-                <h4 className="font-bold mb-2 text-xl">GitHub</h4>
-                <a 
-                  href="https://github.com/Jamielly" 
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-primary hover:underline text-sm"
-                >
-                  github.com/Jamielly
-                </a>
+            </Card>
+
+            <Card className="card-gradient p-8 border-border hover-glow">
+              <div className="flex items-start gap-4">
+                <div className="w-12 h-12 bg-primary/20 rounded-full flex items-center justify-center text-primary flex-shrink-0">
+                  <Linkedin className="w-6 h-6" />
+                </div>
+                <div>
+                  <h4 className="font-bold mb-2">LinkedIn</h4>
+                  <a 
+                    href="https://www.linkedin.com/in/jamiellyreis/" 
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary hover:underline"
+                  >
+                    linkedin.com/in/jamiellyreis
+                  </a>
+                </div>
               </div>
-            </div>
-          </Card>
+            </Card>
+
+            <Card className="card-gradient p-8 border-border hover-glow">
+              <div className="flex items-start gap-4">
+                <div className="w-12 h-12 bg-primary/20 rounded-full flex items-center justify-center text-primary flex-shrink-0">
+                  <Github className="w-6 h-6" />
+                </div>
+                <div>
+                  <h4 className="font-bold mb-2">GitHub</h4>
+                  <a 
+                    href="https://github.com/Jamielly" 
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary hover:underline"
+                  >
+                    github.com/Jamielly
+                  </a>
+                </div>
+              </div>
+            </Card>
+          </div>
         </div>
       </div>
     </section>
