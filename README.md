@@ -5,7 +5,7 @@
 Este repositório contém o **portfolio digital de Jami**, destacando suas habilidades e experiências em **análise de dados**, **cibersegurança**, **desenvolvimento Back-End** e automação industrial, além de apresentar sua trajetória acadêmica, projetos relevantes e publicações.
 
 **Contatos:**
-- **LinkedIn:** [linkedin.com/in/jamiellyreis](https://www.linkedin.com/in/jamiellyreis/)
+- **LinkedIn:** [linkedin.com/in/jamielly-reis](https://www.linkedin.com/in/jamielly-reis/)
 - **GitHub:** [github.com/Jamielly](https://github.com/Jamielly)
 
 ---
@@ -33,7 +33,10 @@ Este repositório contém o **portfolio digital de Jami**, destacando suas habil
    - Mensagem introdutória
 
 2. **Sobre Mim**
-   - Formada em Análise e Desenvolvimento de Sistemas (ADS) e pós-graduação em Gestão de Sistemas da Informação (GSI) pelo IFSP Guarulhos
+   - Formação acadêmica:
+     - Pós-Graduação em Gestão de Sistemas da Informação (GSI) - IFSP Guarulhos (em andamento)
+     - Análise e Desenvolvimento de Sistemas - FATEC Guarulhos (Conclusão: 2023.2)
+     - Técnico em Automação Industrial - IFSP Guarulhos (Conclusão: 2022.1)
    - Experiência profissional: Back-End (Java, C#, Python), análise de dados, automação industrial, PLCs/SCADA, cibersegurança
    - Publicações de artigos em revistas acadêmicas
 
@@ -46,11 +49,11 @@ Este repositório contém o **portfolio digital de Jami**, destacando suas habil
    - Metodologias ágeis (Scrum, Kanban)
 
 4. **Projetos**
-   - **Estudos em Inteligência Artificial e Atualidades:** [Análise de Cibersegurança](https://github.com/Jamielly/Analise_CyberSegurity)
-   - **Laboratórios TryHackMe:** [Práticas de Pentesting](https://github.com/Jamielly)
-   - **Laboratórios PortSwigger:** [Web Security Academy](https://github.com/Jamielly)
-   - **Defasagem Escolar:** [Artigo publicado](https://rgti.fatecguarulhos.edu.br/ojs33/index.php/rgti/article/view/62)
-   - **Inovação em Captação de Recursos:** [Artigo publicado](https://revista.gru.ifsp.edu.br/exatecca/article/view/265)
+   - **Estudos em Inteligência Artificial e Atualidades:** [Análise de Cibersegurança](https://github.com/Jamielly/Analise_CyberSegurity) - Pesquisa e análise de ameaças cibernéticas utilizando técnicas de IA e machine learning
+   - **Laboratórios TryHackMe:** [Práticas de Pentesting](https://github.com/Jamiell) - Exercícios práticos de pentesting, análise de vulnerabilidades e técnicas de exploração
+   - **Laboratórios PortSwigger:** [Web Security Academy](https://github.com/Jamielly) - Estudos avançados em segurança web, incluindo SQLi, XSS, CSRF e outras vulnerabilidades
+   - **Defasagem Escolar:** [Artigo publicado](https://rgti.fatecguarulhos.edu.br/ojs33/index.php/rgti/article/view/62) - Pesquisa sobre defasagem escolar com análise de dados educacionais
+   - **Inovação em Captação de Recursos:** [Artigo publicado](https://revista.gru.ifsp.edu.br/exatecca/article/view/265) - Estudo sobre otimização de processos de captação de recursos
 
 5. **Currículo / Experiência**
    - Linha do tempo com educação, experiência e publicações
@@ -62,11 +65,11 @@ Este repositório contém o **portfolio digital de Jami**, destacando suas habil
    - Desenvolvimento pessoal
 
 7. **Contato**
-   - Formulário de contato
-   - Links para LinkedIn e GitHub
+   - Links diretos para LinkedIn e GitHub
+   - Formulário de contato removido
 
 8. **Outros Interesses e Materiais**
-   - **Currículo:** Baixe ou visualize online o CV em PDF ([/public/docs/Curriculo_Jamielly_Reis.pdf](/public/docs/Curriculo_Jamielly_Reis.pdf))
+   - **Currículo:** Baixe ou visualize online o CV em PDF ([Curriculo_Jamielly_Reis.pdf](/public/docs/Curriculo_Jamielly_Reis.pdf))
    - **Canal no YouTube:** Compartilho reflexões e estudos sobre tecnologia e cibersegurança ([Acessar Canal](https://www.youtube.com/channel/UCYaWrmozMN48G_Z76H45RWg))
    - **Perfil na DIO:** Artigos, resumos de estudos e projetos sobre tecnologia, IA e segurança ([Visitar Perfil](https://www.dio.me/users/jamielly_reis))
 
@@ -104,9 +107,11 @@ npm run dev
 
     Commit e push quando terminar
 
-##  Contatos
+## Contatos
 
-**LinkedIn:** [linkedin.com/in/jamiellyreis](https://www.linkedin.com/in/jamiellyreis/)
+**LinkedIn:** [linkedin.com/in/jamielly-reis](https://www.linkedin.com/in/jamielly-reis/)
 
 **GitHub:** [github.com/Jamielly](https://github.com/Jamielly)
+
+**Download do Currículo:** [Curriculo_Jamielly_Reis.pdf](/public/docs/Curriculo_Jamielly_Reis.pdf)
 

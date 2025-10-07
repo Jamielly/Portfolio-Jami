@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="flex flex-col items-center gap-4">
           <div className="flex gap-6">
             <a
-              href="https://www.linkedin.com/in/jamiellyreis/"
+              href="https://www.linkedin.com/in/jamielly-reis/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors"

@@ -12,6 +12,22 @@ const Experience = () => {
       type: "education"
     },
     {
+      icon: <GraduationCap className="w-6 h-6" />,
+      title: "Análise e Desenvolvimento de Sistemas",
+      organization: "FATEC Guarulhos",
+      period: "Conclusão: 2023.2",
+      description: "Graduação focada em desenvolvimento de software, banco de dados, engenharia de software e gestão de projetos.",
+      type: "education"
+    },
+    {
+      icon: <GraduationCap className="w-6 h-6" />,
+      title: "Técnico em Automação Industrial",
+      organization: "IFSP Guarulhos",
+      period: "Conclusão: 2022.1",
+      description: "Formação técnica em automação industrial, programação de PLCs, sistemas SCADA e controle de processos.",
+      type: "education"
+    },
+    {
       icon: <Briefcase className="w-6 h-6" />,
       title: "Desenvolvimento Back-End",
       organization: "Experiência Profissional",
