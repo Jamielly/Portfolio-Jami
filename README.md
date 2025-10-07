@@ -105,13 +105,3 @@ npm run dev
 
 **GitHub:** [github.com/Jamielly](https://github.com/Jamielly)
 
-## 📚 Artigos Publicados
-
-1. **Defasagem Escolar no Andamento da Vida Acadêmica - Impacto da Defasagem Escolar na Motivação e Desempenho dos Alunos**
-   - Publicado na Revista Gestão & Tecnologia de Informação - Fatec Guarulhos
-   - [Ler artigo completo](https://rgti.fatecguarulhos.edu.br/ojs33/index.php/rgti/article/view/62)
-
-2. **Uma Inovação na Captação de Recurso para Entidade sem Fim Lucrativo**
-   - Publicado na Revista EXATECCA IV - IFSP Guarulhos
-   - [Ler artigo completo](https://revista.gru.ifsp.edu.br/exatecca/article/view/265)
-
