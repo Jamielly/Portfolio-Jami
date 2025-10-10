@@ -16,13 +16,13 @@ const Hero = () => {
 
       <div className="container mx-auto px-4 text-center relative z-10 animate-fade-in">
         <h1 className="text-5xl md:text-7xl font-bold mb-6 gradient-text">
-          Olá, eu sou a Jami
+          Transformo Dados em Segurança
         </h1>
         <p className="text-xl md:text-2xl text-muted-foreground mb-4 max-w-3xl mx-auto">
-          Exploradora de dados e defensora da cibersegurança
+          Analista de Dados & Especialista em Cibersegurança
         </p>
         <p className="text-lg md:text-xl text-muted-foreground/80 mb-12 max-w-2xl mx-auto">
-          Transformando conhecimento em soluções reais através de tecnologia, análise crítica e aprendizado contínuo
+          Unindo inteligência analítica e proteção digital para decisões mais confiáveis e sistemas mais seguros
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -39,7 +39,7 @@ const Hero = () => {
             className="border-primary text-foreground hover:bg-primary/10 font-semibold px-8 py-6 text-lg"
             onClick={() => scrollToSection("contact")}
           >
-            Entre em Contato
+            Vamos Conversar
           </Button>
         </div>
 

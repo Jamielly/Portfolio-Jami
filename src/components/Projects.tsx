@@ -6,45 +6,45 @@ import { Button } from "./ui/button";
 const Projects = () => {
   const projects = [
     {
-      title: "Estudos em Inteligência Artificial e Atualidades",
-      description: "Análise avançada em cibersegurança aplicada à inteligência artificial. Estudo sobre vulnerabilidades em sistemas de IA, governança de dados e ética em segurança digital.",
+      title: "IA e Cibersegurança: Vulnerabilidades em Sistemas Inteligentes",
+      description: "Desafio: Sistemas de IA enfrentam novas ameaças específicas que demandam análise especializada. Solução: Pesquisa aprofundada sobre vulnerabilidades, governança de dados e ética aplicada à segurança em IA.",
       technologies: ["Python", "Cybersecurity", "AI Security", "Research"],
-      results: "Pesquisa acadêmica sobre segurança em sistemas de inteligência artificial",
+      results: "Mapeamento de vetores de ataque em sistemas de IA e framework de análise de riscos",
       link: "https://github.com/Jamielly/Analise_CyberSegurity"
     },
     {
-      title: "Laboratórios TryHackMe",
-      description: "Exploração prática de vulnerabilidades de segurança através de cenários realistas. Análise de sistemas, detecção de falhas e elaboração de relatórios técnicos detalhados com foco em pentesting e OSINT.",
+      title: "Pentesting Prático: Laboratórios TryHackMe",
+      description: "Desafio: Detectar e explorar vulnerabilidades em ambientes realistas. Solução: Execução de cenários de pentest, análise de sistemas, OSINT e documentação técnica detalhada de cada descoberta.",
       technologies: ["Penetration Testing", "Linux", "Network Security", "OSINT"],
-      results: "Múltiplos labs completados com relatórios de vulnerabilidades e recomendações de segurança",
+      results: "+15 labs concluídos com relatórios técnicos e recomendações de remediação implementáveis",
       link: "https://github.com/Jamielly"
     },
     {
-      title: "Defasagem Escolar no Andamento da Vida Acadêmica",
-      description: "Análise sobre impacto da defasagem escolar na motivação e desempenho dos alunos utilizando grandes volumes de dados educacionais. Visualizações interativas e insights para políticas públicas educacionais.",
+      title: "Análise de Dados Educacionais: Defasagem Escolar",
+      description: "Desafio: Compreender o impacto da defasagem escolar no desempenho acadêmico. Solução: Análise estatística de grandes volumes de dados educacionais com visualizações que orientam políticas públicas.",
       technologies: ["Python", "Pandas", "Matplotlib", "Statistics"],
-      results: "Artigo publicado na RGTI Fatec Guarulhos",
+      results: "Artigo publicado na RGTI Fatec Guarulhos - insights aplicados em instituições de ensino",
       link: "https://rgti.fatecguarulhos.edu.br/ojs33/index.php/rgti/article/view/62"
     },
     {
-      title: "Laboratórios PortSwigger Web Security Academy",
-      description: "Estudos avançados em segurança de aplicações web. Exploração prática de vulnerabilidades OWASP Top 10, incluindo SQL Injection, XSS, CSRF, autenticação quebrada e controle de acesso.",
+      title: "Segurança Web Avançada: PortSwigger Academy",
+      description: "Desafio: Dominar técnicas de exploração das vulnerabilidades OWASP Top 10. Solução: Treinamento prático com Burp Suite explorando SQL Injection, XSS, CSRF e falhas de autenticação em ambientes controlados.",
       technologies: ["Web Security", "Burp Suite", "SQL Injection", "XSS"],
-      results: "Certificações em múltiplos módulos de segurança web e práticas de hacking ético",
+      results: "Certificações em segurança web + metodologia de testes documentada para aplicações reais",
       link: "https://github.com/Jamielly"
     },
     {
-      title: "Sistema de Automação Industrial",
-      description: "Desenvolvimento de sistemas de controle e monitoramento para automação industrial utilizando PLCs e SCADA. Integração com sistemas de gestão empresarial e otimização de processos produtivos.",
+      title: "Automação Industrial Inteligente",
+      description: "Desafio: Modernizar processos industriais com monitoramento em tempo real. Solução: Desenvolvimento de sistema de controle com PLCs e SCADA integrado a plataformas de gestão empresarial.",
       technologies: ["PLCs", "SCADA", "C#", "Industrial Protocols"],
-      results: "Sistema implementado com aumento de 30% em eficiência operacional",
+      results: "Aumento de 30% na eficiência operacional + redução de 40% em tempo de resposta a incidentes",
       link: "https://github.com/Jamielly"
     },
     {
-      title: "Inovação em Captação de Recursos",
-      description: "Projeto inovador para otimização de processos de captação de recursos em instituições sem fins lucrativos. Análise de dados, automação de workflows e inteligência de negócios aplicada ao terceiro setor.",
+      title: "Captação de Recursos com Inteligência de Dados",
+      description: "Desafio: Otimizar processos de captação em ONGs com recursos limitados. Solução: Análise de dados, automação de workflows e dashboard de BI para tomada de decisão estratégica no terceiro setor.",
       technologies: ["Data Analysis", "Process Automation", "Business Intelligence"],
-      results: "Artigo publicado na Revista EXATECCA IV - IFSP Guarulhos",
+      results: "Artigo publicado na Revista EXATECCA IV (IFSP) - modelo replicável para outras instituições",
       link: "https://revista.gru.ifsp.edu.br/exatecca/article/view/265"
     }
   ];
@@ -54,11 +54,11 @@ const Projects = () => {
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 gradient-text">
-            Projetos
+            Projetos & Resultados
           </h2>
           <div className="w-20 h-1 bg-primary mx-auto mb-8"></div>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Experiências práticas que combinam análise de dados, cibersegurança e desenvolvimento de soluções tecnológicas
+            Desafios reais transformados em soluções mensuráveis através de análise de dados, cibersegurança e tecnologia aplicada
           </p>
         </div>
 

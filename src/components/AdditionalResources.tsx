@@ -56,7 +56,7 @@ const AdditionalResources = () => {
               <h3 className="text-2xl font-bold">Meu Canal de Estudos</h3>
             </div>
             <p className="text-muted-foreground mb-6 flex-grow">
-              Compartilho reflexões, aprendizados e experiências da minha jornada no mundo da tecnologia e da cibersegurança. Ainda em crescimento, mas com muito conteúdo vindo por aí!
+              Compartilho aprendizados, reflexões técnicas e bastidores da minha jornada em tecnologia, dados e segurança. Um espaço em crescimento para quem ama aprender junto.
             </p>
             <Button
               asChild
@@ -82,7 +82,7 @@ const AdditionalResources = () => {
               <h3 className="text-2xl font-bold">Perfil na DIO</h3>
             </div>
             <p className="text-muted-foreground mb-6 flex-grow">
-              Aqui publico resumos dos meus estudos, projetos e artigos sobre tecnologia, IA e segurança da informação.
+              Documentação da minha trajetória de estudos: resumos, projetos práticos e artigos sobre IA, análise de dados e cibersegurança aplicada.
             </p>
             <Button
               asChild

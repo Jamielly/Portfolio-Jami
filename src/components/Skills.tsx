@@ -41,11 +41,11 @@ const Skills = () => {
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 gradient-text">
-            Habilidades Técnicas
+            Stack Tecnológica
           </h2>
           <div className="w-20 h-1 bg-primary mx-auto mb-8"></div>
           <p className="text-muted-foreground text-lg">
-            Competências desenvolvidas através de formação acadêmica e experiência prática
+            Ferramentas e tecnologias que uso para transformar dados em insights e sistemas em fortalezas
           </p>
         </div>
 

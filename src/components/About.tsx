@@ -5,23 +5,23 @@ const About = () => {
   const highlights = [
     {
       icon: <Brain className="w-8 h-8 text-primary" />,
-      title: "Gestão de Sistemas da Informação",
-      description: "Pós-graduação (GSI) no IFSP Guarulhos"
+      title: "Visão Estratégica",
+      description: "Pós-graduação em GSI aplicada à segurança"
     },
     {
       icon: <Code className="w-8 h-8 text-primary" />,
-      title: "Desenvolvimento Back-End",
-      description: "Java, C#, Python, TypeScript"
+      title: "Desenvolvimento Robusto",
+      description: "Back-End com foco em performance"
     },
     {
       icon: <Shield className="w-8 h-8 text-primary" />,
-      title: "Cibersegurança",
-      description: "Análise de vulnerabilidades e LGPD"
+      title: "Defesa Proativa",
+      description: "Detecção de vulnerabilidades e conformidade"
     },
     {
       icon: <GraduationCap className="w-8 h-8 text-primary" />,
-      title: "Publicações Acadêmicas",
-      description: "2 artigos publicados"
+      title: "Pesquisa & Inovação",
+      description: "Artigos publicados em revistas científicas"
     }
   ];
 
@@ -38,18 +38,22 @@ const About = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
           <div className="animate-fade-in-up">
             <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-              Formada em <span className="text-primary font-semibold">Análise e Desenvolvimento de Sistemas</span> com pós-graduação 
-              em <span className="text-primary font-semibold">Gestão de Sistemas da Informação (GSI)</span> pelo IFSP Guarulhos, 
-              especializada em análise de dados e cibersegurança.
+              <span className="text-primary font-semibold">Dados contam histórias. Eu traduzo essas histórias em segurança.</span>
             </p>
             <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-              Minha trajetória combina <span className="text-primary font-semibold">programação Back-End</span> (Java, C#, Python), 
-              automação industrial com PLCs e SCADA, e metodologias ágeis, sempre com foco em segurança da informação e LGPD.
+              Minha jornada começou com a curiosidade de entender como sistemas funcionam e evoluiu para a missão de protegê-los. 
+              Formada em <span className="text-primary font-semibold">Análise e Desenvolvimento de Sistemas</span> e 
+              pós-graduada em <span className="text-primary font-semibold">Gestão de Sistemas da Informação (GSI)</span> pelo IFSP Guarulhos, 
+              encontrei na interseção entre análise de dados e cibersegurança o espaço perfeito para transformar informação em confiança.
+            </p>
+            <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
+              Trabalho com <span className="text-primary font-semibold">Back-End</span> (Java, C#, Python, TypeScript), 
+              automação industrial, metodologias ágeis e LGPD — sempre buscando o equilíbrio entre inovação tecnológica e proteção robusta. 
+              Já publiquei dois artigos acadêmicos que refletem meu compromisso com pesquisa aplicada e impacto social.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Tenho dois artigos acadêmicos publicados: <span className="text-primary font-semibold">"Defasagem Escolar..."</span> e 
-              <span className="text-primary font-semibold"> "Uma Inovação na Captação de Recursos..."</span>, 
-              refletindo meu compromisso com pesquisa e inovação.
+              Acredito que segurança não é apenas sobre prevenir ataques, mas sobre construir confiança. 
+              E é essa visão que guia cada projeto, análise e linha de código que produzo.
             </p>
           </div>
 

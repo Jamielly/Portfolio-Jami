@@ -8,7 +8,7 @@ const Experience = () => {
       title: "Pós-Graduação em Gestão de Sistemas da Informação (GSI)",
       organization: "IFSP Guarulhos",
       period: "Em andamento",
-      description: "Especialização em gestão estratégica de TI, governança de dados, segurança da informação e transformação digital.",
+      description: "Aprofundamento em gestão estratégica de TI, governança de dados, segurança da informação e liderança em transformação digital — unindo visão de negócio e expertise técnica.",
       type: "education"
     },
     {
@@ -16,7 +16,7 @@ const Experience = () => {
       title: "Análise e Desenvolvimento de Sistemas",
       organization: "FATEC Guarulhos",
       period: "Conclusão: 2023.2",
-      description: "Graduação focada em desenvolvimento de software, banco de dados, engenharia de software e gestão de projetos.",
+      description: "Formação completa em desenvolvimento de software, arquitetura de sistemas, banco de dados e metodologias ágeis — com ênfase em soluções escaláveis e seguras.",
       type: "education"
     },
     {
@@ -24,47 +24,47 @@ const Experience = () => {
       title: "Técnico em Automação Industrial",
       organization: "IFSP Guarulhos",
       period: "Conclusão: 2022.1",
-      description: "Formação técnica em automação industrial, programação de PLCs, sistemas SCADA e controle de processos.",
+      description: "Base técnica em automação, programação de PLCs, sistemas SCADA e controle de processos — onde começou minha jornada na interseção entre hardware e software.",
       type: "education"
     },
     {
       icon: <Briefcase className="w-6 h-6" />,
-      title: "Desenvolvimento Back-End",
+      title: "Desenvolvimento Back-End & APIs",
       organization: "Experiência Profissional",
       period: "Múltiplos projetos",
-      description: "Desenvolvimento de sistemas robustos utilizando Java, C#, Python e TypeScript. Integração de APIs e arquitetura de microsserviços.",
+      description: "Criação de sistemas robustos e escaláveis com Java, C#, Python e TypeScript. Arquitetura de microsserviços, integração de APIs e otimização de performance em ambientes de produção.",
       type: "work"
     },
     {
       icon: <Briefcase className="w-6 h-6" />,
-      title: "Automação Industrial",
+      title: "Automação Industrial & Sistemas Embarcados",
       organization: "Experiência Técnica",
       period: "Diversos projetos",
-      description: "Programação e configuração de PLCs, desenvolvimento de sistemas SCADA e otimização de processos industriais.",
+      description: "Programação de PLCs, desenvolvimento de interfaces SCADA e implementação de soluções que conectam chão de fábrica a sistemas de gestão — aumentando eficiência operacional.",
       type: "work"
     },
     {
       icon: <FileText className="w-6 h-6" />,
-      title: "Artigo: Defasagem Escolar",
-      organization: "Publicação Acadêmica",
+      title: "Artigo: Defasagem Escolar e Impacto na Vida Acadêmica",
+      organization: "RGTI - Revista Guarulhos de Tecnologia da Informação",
       period: "Publicado",
-      description: "Pesquisa sobre defasagem escolar com análise de dados educacionais e propostas de intervenção baseadas em evidências.",
+      description: "Análise estatística com grandes volumes de dados educacionais para compreender fatores de risco e propor políticas públicas baseadas em evidências — impacto mensurável na educação.",
       type: "publication"
     },
     {
       icon: <FileText className="w-6 h-6" />,
-      title: "Artigo: Inovação na Captação de Recursos",
-      organization: "Publicação Acadêmica",
+      title: "Artigo: Inovação em Captação de Recursos para ONGs",
+      organization: "Revista EXATECCA IV - IFSP Guarulhos",
       period: "Publicado",
-      description: "Estudo sobre otimização de processos de captação de recursos utilizando análise de dados e automação.",
+      description: "Pesquisa aplicada sobre otimização de processos no terceiro setor usando análise de dados, automação e inteligência de negócios — modelo replicável para instituições sem fins lucrativos.",
       type: "publication"
     },
     {
       icon: <Award className="w-6 h-6" />,
-      title: "Certificações em Cibersegurança",
-      organization: "TryHackMe & PortSwigger",
+      title: "Certificações & Treinamentos em Segurança",
+      organization: "TryHackMe, PortSwigger Web Security Academy",
       period: "Contínuo",
-      description: "Laboratórios práticos em penetration testing, análise de vulnerabilidades e segurança de aplicações web.",
+      description: "Formação prática avançada em pentest, exploração de vulnerabilidades OWASP Top 10, análise de malware e defesa proativa — mantendo-me atualizada com as ameaças mais recentes.",
       type: "certification"
     }
   ];
@@ -84,11 +84,11 @@ const Experience = () => {
       <div className="container mx-auto max-w-4xl">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 gradient-text">
-            Experiência & Formação
+            Trajetória & Conquistas
           </h2>
           <div className="w-20 h-1 bg-primary mx-auto mb-8"></div>
           <p className="text-muted-foreground text-lg">
-            Trajetória acadêmica, profissional e publicações
+            Educação sólida, experiência prática e contribuições para a comunidade técnica
           </p>
         </div>
 
